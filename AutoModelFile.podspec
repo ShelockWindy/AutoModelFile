@@ -6,7 +6,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AutoModelFile"
-  s.version      = "0.0.1"
+  s.version      = "1.0"
   s.summary      = "可以自动解析字典并且生成 model .h 和.m文件"
 
   
