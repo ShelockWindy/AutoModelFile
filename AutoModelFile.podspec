@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
  # s.exclude_files = "Classes/Exclude"
 
 # AutoModelFile  在工程中以子目录显示
-s.source_files     = '/*'
+s.source_files     = '*'
 
   # s.public_header_files = "Classes/**/*.h"
 
