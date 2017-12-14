@@ -9,6 +9,7 @@
 #import "AutoModelFileManager.h"
 #import <CoreGraphics/CoreGraphics.h>
 #import <unistd.h>
+#import "PlistFileReadAndWrite.h"
 
 @interface NSMutableString (Safe)
 -(void)appendStringSafe:(NSString *)aString;
@@ -25,8 +26,6 @@
 
 
 @implementation AutoModelFileManager
-
-
 
 +(void)autoModelFileWithName:(NSString *)fileName ClassName:(NSString *)className superModelName:(NSString *)superModelName dictionary:(NSDictionary *)dictionary currentPath:(NSString *)path remarkBlock:(NSDictionary * (^)(void) )remarkBlock;
 {
@@ -257,6 +256,10 @@
 
     [self fileWriteWithData:data_h path:currentPath_h];
     [self fileWriteWithData:data_m path:currentPath_m];
+    
+    PlistFileReadAndWrite * plistWrite = [[PlistFileReadAndWrite alloc]init];
+    [plistWrite savePlistFileWithName:name hFilePath:currentPath_h mFilePath:currentPath_m];
+    
 }
 
 

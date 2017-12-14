@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Number</key>
+	<dict>
+		<key>hFilePath</key>
+		<string>/Users/sunwf/Desktop/GitHub/test2/Model/Number.h</string>
+		<key>mFilePath</key>
+		<string>/Users/sunwf/Desktop/GitHub/test2/Model/Number.m</string>
+		<key>name</key>
+		<string>Number</string>
+	</dict>
+	<key>People</key>
+	<dict>
+		<key>hFilePath</key>
+		<string>/Users/sunwf/Desktop/GitHub/test2/Model/People.h</string>
+		<key>mFilePath</key>
+		<string>/Users/sunwf/Desktop/GitHub/test2/Model/People.m</string>
+		<key>name</key>
+		<string>People</string>
+	</dict>
+</dict>
+</plist>
